@@ -14,6 +14,7 @@ public class BreadthFirstSearch {
 
 		Queue<Vertex> queue = new LinkedList<>();
 		List<Vertex> traversal=new ArrayList<>();
+
 		root.setVisited(true);
 		queue.add(root);
 		

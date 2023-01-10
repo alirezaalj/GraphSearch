@@ -20,6 +20,10 @@ public class Node {
         this.parent=parent;
     }
 
+    public Node(String name){
+
+    }
+
     public boolean isVisited() {
         return visited;
     }
@@ -32,6 +36,9 @@ public class Node {
         children.put(node,cost);
     }
 
+    public void addChildren(Node node){
+        children.put(node,0);
+    }
     public Vertex getVertex() {
         return vertex;
     }
